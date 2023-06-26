@@ -1,0 +1,28 @@
+Z, Z
+a, a
+C7, Z
+Z, a
+Z, Z
+b, b
+C11, Z
+Z, b
+Z, Z
+T1, T1
+a, Z
+Z, T1
+1, a
+Z, Z
+T2, T2
+b, Z
+Z, T2
+Z, Z		// L1
+a, Z, L2
+Z, Z, OUT2
+Z, Z		// L2
+Z, a, OUT1
+Z, Z		// OUT2
+T2, Z
+Z, b
+1, a
+Z, Z, L1
+Z, Z, -1	// OUT1

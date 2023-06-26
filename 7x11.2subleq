@@ -1,0 +1,43 @@
+subleq Z, Z
+subleq a, a
+subleq C7, Z
+subleq Z, a
+
+subleq Z, Z
+subleq b, b
+subleq C11, Z
+subleq Z, b
+
+subleq Z, Z
+subleq T1, T1
+subleq a, Z
+subleq Z, T1
+
+subleq 1, a
+
+subleq Z, Z
+subleq T2, T2
+subleq b, Z
+subleq Z, T2
+
+L1:
+
+subleq Z, Z
+subleq a, Z, L2
+subleq Z, Z, OUT2
+L2:
+subleq Z, Z
+subleq Z, a, OUT1
+OUT2:
+
+subleq Z, Z
+subleq T2, Z
+subleq Z, b
+
+subleq 1, a
+
+subleq Z, Z, L1
+
+OUT1:
+
+subleq Z, Z, -1

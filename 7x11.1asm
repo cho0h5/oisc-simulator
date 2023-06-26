@@ -1,0 +1,4 @@
+mov 7, a
+mov 11, b
+mul a, b
+end
